@@ -47,12 +47,12 @@ class Planet:
             distance_text = setting.font_.render(f'{round(self.distance_to_sun / 1000, 1)}km', 1, setting.white)
             win.blit(distance_text, (x - distance_text.get_width() / 2, y - distance_text.get_height() / 2))
             
-            center_text = setting.font_.render('Pâmela', 1, setting.black)
+            center_text = setting.font_.render('name', 1, setting.black)
             center_text_rect = center_text.get_rect()
             center_text_rect.center = (setting.width / 2, setting.height / 2)
             win.blit(center_text, center_text_rect)
 
-            sub_center_font = setting.sub_font_.render('pamervs', 1, setting.black)
+            sub_center_font = setting.sub_font_.render('socialmedia_id', 1, setting.black)
             sub_center_font_rect = sub_center_font.get_rect()
             sub_center_font_rect.center = ((setting.width / 2), (setting.height / 2) + 10)
             win.blit(sub_center_font, sub_center_font_rect)

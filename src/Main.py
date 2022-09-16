@@ -9,22 +9,22 @@ def main():
     run = True
     clock = pygame.time.Clock()
 
-    sun = Planet(0, 0, 30, setting.yellow, 1.98892 * 10**30, 'elyria MS6', 'Você')
+    sun = Planet(0, 0, 30, setting.yellow, 1.98892 * 10**30, 'elyria MS6', 'msg_1')
     sun.sun = True
 
-    arges = Planet(0.387 * Planet.au, 0, 8, setting.dark_grey, 3.30 * 10**23, 'arges', 'Aceita')
+    arges = Planet(0.387 * Planet.au, 0, 8, setting.dark_grey, 3.30 * 10**23, 'arges', 'msg_2')
     arges.y_vel = -47.4 * 1000
 
-    mimas = Planet(0.623 * Planet.au, 0, 14, setting.white, 4.8685 * 10**24, 'mimas', 'Sair')
+    mimas = Planet(0.623 * Planet.au, 0, 14, setting.white, 4.8685 * 10**24, 'mimas', 'msg_3')
     mimas.y_vel = -35.02 * 1000
 
-    nyctimus = Planet(-1.1 * Planet.au, 0, 16, setting.purple, 5.9742 * 10**24, 'nyctimus', 'Comigo')
+    nyctimus = Planet(-1.1 * Planet.au, 0, 16, setting.purple, 5.9742 * 10**24, 'nyctimus', 'msg_4')
     nyctimus.y_vel = 29.783 * 1000
 
-    styx = Planet(-1.234 * Planet.au, 0, 11, setting.green, 7.67 * 10**24, 'styx', '<3')
+    styx = Planet(-1.234 * Planet.au, 0, 11, setting.green, 7.67 * 10**24, 'styx', 'msg_5')
     styx.y_vel = 30.645 * 1000
 
-    ceyx = Planet(-1.524 * Planet.au, 0, 12, setting.red, 6.39 * 10**23, 'ceyx', '?')
+    ceyx = Planet(-1.524 * Planet.au, 0, 12, setting.red, 6.39 * 10**23, 'ceyx', 'msg_6')
     ceyx.y_vel = 24.077 * 1000
 
 
